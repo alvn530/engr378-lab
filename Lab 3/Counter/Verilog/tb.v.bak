@@ -1,0 +1,57 @@
+`timescale 1ns/10ps
+
+`define CLK_PERIOD 10
+
+`define ipp i = i + 1
+`define errpp error_count = error_count + 1
+
+module tb();
+	reg clk, rst;
+	wire [1:0] q;
+	
+	integer error_count, previous_
+	
+	always#(`CLK_PERIOD/2) clk = ~clk;
+	
+	task rst_counter;
+		begin
+			@(posedge clk);
+			rst = 1'b1;
+			@(posedge clk);
+			rst = 1'b0;
+		end
+	endtask
+	
+	task check_io;
+		input [1:0] previous, next;
+		input reset;
+		begin
+			if((reset == 1) && (next != previous)) begin
+				$display("@ time %t: Counter not Reset. Not Correct!", $time);
+				`errpp;
+			end
+			if(next != (previous + 2'b01) % 3b100) begin
+				$display("@ time %t: Not Correct!", $time);
+				`errpp;
+			end
+		end
+	endtask
+	
+	task send_random_rst_lines;
+		reg [1:0] PREV, NEXT;
+		reg RST
+	
+		begin
+			PREV = q;
+			RST = $urandom_range(1,0);
+			rst = RST;
+			@(posedge clk);
+			#1;
+			NEXT = q;
+			`ipp;
+			check_io(PREV, NEXT, RST);
+		end
+	endtask
+	
+	two_bit_counter i0(.clk(clk), .rst(rst), .q0(q[0]), q1(q[1]));
+endmodule			

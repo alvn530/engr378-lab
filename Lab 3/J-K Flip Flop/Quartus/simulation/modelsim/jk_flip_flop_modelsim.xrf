@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/alvn5/ENGR378/Lab 3/jk/Verilog/tb.v
+source_file = 1, C:/Users/alvn5/ENGR378/lab3/Verilog/jk_flip_flop.v
+source_file = 1, C:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/db/jk_flip_flop.cbx.xml
+design_name = jk_flip_flop
+instance = comp, \q~output , q~output, jk_flip_flop, 1
+instance = comp, \q_bar~output , q_bar~output, jk_flip_flop, 1
+instance = comp, \clk~input , clk~input, jk_flip_flop, 1
+instance = comp, \j~input , j~input, jk_flip_flop, 1
+instance = comp, \k~input , k~input, jk_flip_flop, 1
+instance = comp, \Mux0~0 , Mux0~0, jk_flip_flop, 1
+instance = comp, \q~reg0 , q~reg0, jk_flip_flop, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

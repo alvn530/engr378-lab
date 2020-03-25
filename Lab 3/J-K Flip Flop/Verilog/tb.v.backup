@@ -1,0 +1,88 @@
+`timescale 1ns/10ps
+module tb();
+
+	reg [2:0] input_vector;
+	
+	integer error_count, q_previous;
+	
+	wire j, k, clk, q;
+	
+	assign j = input_vector[0];
+	assign k = input_vector[1];
+	assign clk = input_vector[2];
+	
+	initial begin
+
+		error_count = 0;
+		q_previous = 0;
+		input_vector = 3'b110;
+		#10;
+		repeat(2**6)begin
+			
+			input_vector = input_vector + 3'd1;
+			#10;
+			q_previous = q;
+		
+		end
+		
+		$message("%d errors found!", error_count);
+
+	end
+	
+	always@(input_vector)begin
+	
+		#1;
+		case({j,k})
+		
+			2'd0: begin
+			
+						if(q != q_previous) begin 
+							
+							$message("@time %t: q has changed", $time);
+							error_count = error_count + 1;
+							
+						end
+						
+					end
+			
+			1'd1: begin
+			
+						if(q != 1'd0) begin
+						
+							$message("@time %t: q has not changed to 0", $time);
+							error_count = error_count + 1;
+							
+						end
+						
+					end
+					
+			2'd2: begin
+			
+						if(q != 1'd1) begin 
+							
+							$message("@time %t: q has not changed to 1", $time);
+							error_count = error_count + 1;
+							
+						end
+						
+					end
+					
+			2'd3: begin
+			
+						if(q != ~(q_previous)) begin 
+							
+							$message("@time %t: q has not flipped", $time);
+							error_count = error_count + 1;
+							
+						end
+						
+					end
+		
+		endcase
+	
+	end	
+	
+	jk_flip_flop i0(j,k,clk,q);
+
+	
+endmodule

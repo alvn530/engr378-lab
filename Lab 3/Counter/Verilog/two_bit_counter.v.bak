@@ -1,0 +1,21 @@
+'define ZERO 2'd0
+'define ONE 2'd1
+'define TWO 2'd2
+'define THREE 2'd3
+
+module(clk, rst, q0, q1);
+	input clk, rst;
+	output reg q0, q1;
+	
+	always@(*) begin
+		if (rst == 1) begin
+			{q1,q0} = ZERO;
+		else case ({q1,q0}) begin
+			ZERO: {q1,q0} = ONE;
+			ONE: {q1,q0} = TWO;
+			TWO: {q1,q0} = THREE;
+			THREE: {q1,q0} = ZERO
+		endcase
+		end
+	end
+endmodule 

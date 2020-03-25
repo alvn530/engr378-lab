@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/alvn5/ENGR378/lab3/Verilog/tb1.v
+source_file = 1, C:/Users/alvn5/ENGR378/lab3/Verilog/d_latch.v
+source_file = 1, C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/db/d_flip_flop.cbx.xml
+design_name = d_latch
+instance = comp, \q~output , q~output, d_latch, 1
+instance = comp, \d~input , d~input, d_latch, 1
+instance = comp, \g~input , g~input, d_latch, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

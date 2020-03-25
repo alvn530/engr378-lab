@@ -1,0 +1,13 @@
+module jk_flip_flop(j,k,clk,q);
+	input j,k,clk;
+	output reg q;
+	
+	always@(posedge clk) begin
+		case({j,k})
+			2'd0: q = q;
+			2'd1: q = 0;
+			2'd3: q = 1;
+			2'd4: q = ~q;
+		endcase
+	end
+endmodule 

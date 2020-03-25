@@ -1,0 +1,6 @@
+module d_latch(g, d, q);
+	input g, d;
+	output reg q;
+	
+	
+endmodule

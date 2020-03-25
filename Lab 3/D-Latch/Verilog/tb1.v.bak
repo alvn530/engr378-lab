@@ -1,0 +1,17 @@
+`timescale 1ns/10ps
+module tb1();
+	reg in1,in2,select;
+	wire out;
+	
+	initial begin
+		{in1,in2,select} = 3'b000;
+		#1;
+		repeat(7) begin
+			{in1,in2,select} = {in1,in2,select}+3'b001;
+			#1;
+		end
+		$stop;
+	end
+	
+	mux_2x1 i0(.in1(in1), .in2(in2), .select(select), .out(out));
+endmodule	
