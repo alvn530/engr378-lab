@@ -7,48 +7,48 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/simulation/modelsim
+Z0 dC:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/simulation/modelsim
 vjk_flip_flop
-Z1 !s110 1585157802
+Z1 !s110 1585165387
 !i10b 1
 !s100 8UUB`mFQf_lYIn2c=`QPD0
-I]C70lWg:2a^m@7oiO;DZQ2
+I;U0g0J48@lgA?;Q<6jPzD3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1584918393
-8C:/Users/alvn5/ENGR378/lab3/Verilog/jk_flip_flop.v
-FC:/Users/alvn5/ENGR378/lab3/Verilog/jk_flip_flop.v
+8C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Verilog/jk_flip_flop.v
+FC:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Verilog/jk_flip_flop.v
 L0 1
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1585157802.000000
-!s107 C:/Users/alvn5/ENGR378/lab3/Verilog/jk_flip_flop.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/ENGR378/lab3/Verilog|C:/Users/alvn5/ENGR378/lab3/Verilog/jk_flip_flop.v|
+Z4 !s108 1585165387.000000
+!s107 C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Verilog/jk_flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Verilog|C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Verilog/jk_flip_flop.v|
 !i113 1
 Z5 o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+C:/Users/alvn5/ENGR378/lab3/Verilog
+!s92 -vlog01compat -work work {+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Verilog}
 Z6 tCvgOpt 0
 vtb
 R1
 !i10b 1
 !s100 Fb16^DSEoWl5@K3OkI`Vj1
-InRdMN7oDTJiJIQJH77c_M2
+I4e2f;D`X6oJz=M36@KigO3
 R2
 R0
 w1584926722
-8C:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/../Verilog/tb.v
-FC:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/../Verilog/tb.v
+8C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/../Verilog/tb.v
+FC:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/../Verilog/tb.v
 L0 7
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/../Verilog/tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/../Verilog|C:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/../Verilog/tb.v|
+!s107 C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/../Verilog/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/../Verilog|C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/../Verilog/tb.v|
 !i113 1
 R5
-!s92 -vlog01compat -work work {+incdir+C:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/../Verilog}
+!s92 -vlog01compat -work work {+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/../Verilog}
 R6

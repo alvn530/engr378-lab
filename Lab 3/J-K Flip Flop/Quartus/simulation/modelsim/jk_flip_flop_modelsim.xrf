@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/alvn5/ENGR378/Lab 3/jk/Verilog/tb.v
-source_file = 1, C:/Users/alvn5/ENGR378/lab3/Verilog/jk_flip_flop.v
-source_file = 1, C:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/db/jk_flip_flop.cbx.xml
+source_file = 1, C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Verilog/tb.v
+source_file = 1, C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Verilog/jk_flip_flop.v
+source_file = 1, C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/db/jk_flip_flop.cbx.xml
 design_name = jk_flip_flop
 instance = comp, \q~output , q~output, jk_flip_flop, 1
 instance = comp, \q_bar~output , q_bar~output, jk_flip_flop, 1

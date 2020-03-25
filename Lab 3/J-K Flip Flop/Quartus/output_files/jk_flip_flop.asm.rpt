@@ -1,5 +1,5 @@
 Assembler report for jk_flip_flop
-Wed Mar 25 10:32:32 2020
+Wed Mar 25 12:42:41 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/output_files/jk_flip_flop.sof
+  5. Assembler Device Options: C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/output_files/jk_flip_flop.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Mar 25 10:32:32 2020 ;
+; Assembler Status      ; Successful - Wed Mar 25 12:42:41 2020 ;
 ; Revision Name         ; jk_flip_flop                          ;
 ; Top-level Entity Name ; jk_flip_flop                          ;
 ; Family                ; Cyclone IV E                          ;
@@ -52,23 +52,23 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
-+-----------------------------------------------------------------------+
-; Assembler Generated Files                                             ;
-+-----------------------------------------------------------------------+
-; File Name                                                             ;
-+-----------------------------------------------------------------------+
-; C:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/output_files/jk_flip_flop.sof ;
-+-----------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                   ;
++---------------------------------------------------------------------------------------------+
+; File Name                                                                                   ;
++---------------------------------------------------------------------------------------------+
+; C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/output_files/jk_flip_flop.sof ;
++---------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/alvn5/ENGR378/Lab 3/jk/Quartus/output_files/jk_flip_flop.sof ;
-+----------------+--------------------------------------------------------------------------------+
-; Option         ; Setting                                                                        ;
-+----------------+--------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x0009330C                                                                     ;
-; Checksum       ; 0x0009330C                                                                     ;
-+----------------+--------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/alvn5/github/engr378-lab/Lab 3/J-K Flip Flop/Quartus/output_files/jk_flip_flop.sof ;
++----------------+------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                              ;
++----------------+------------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x0009330C                                                                                           ;
+; Checksum       ; 0x0009330C                                                                                           ;
++----------------+------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -77,15 +77,15 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Mar 25 10:32:31 2020
+    Info: Processing started: Wed Mar 25 12:42:39 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off jk_flip_flop -c jk_flip_flop
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4674 megabytes
-    Info: Processing ended: Wed Mar 25 10:32:32 2020
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 4676 megabytes
+    Info: Processing ended: Wed Mar 25 12:42:41 2020
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 
