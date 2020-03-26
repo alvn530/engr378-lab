@@ -7,48 +7,48 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/simulation/modelsim
+Z0 dC:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/simulation/modelsim
 vd_latch
-Z1 !s110 1585158042
+Z1 !s110 1585167958
 !i10b 1
 !s100 am1MbAYG55bci?S4[Gb:W2
-Im2PakhHe8m<d6Obl?mz3?0
+IO8:fg9<dPHA=C5`35V=>n2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1584905613
-8C:/Users/alvn5/ENGR378/lab3/Verilog/d_latch.v
-FC:/Users/alvn5/ENGR378/lab3/Verilog/d_latch.v
+w1585167770
+8C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Verilog/d_latch.v
+FC:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Verilog/d_latch.v
 L0 1
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1585158042.000000
-!s107 C:/Users/alvn5/ENGR378/lab3/Verilog/d_latch.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/ENGR378/lab3/Verilog|C:/Users/alvn5/ENGR378/lab3/Verilog/d_latch.v|
+Z4 !s108 1585167958.000000
+!s107 C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Verilog/d_latch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Verilog|C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Verilog/d_latch.v|
 !i113 1
 Z5 o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+C:/Users/alvn5/ENGR378/lab3/Verilog
+!s92 -vlog01compat -work work {+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Verilog}
 Z6 tCvgOpt 0
 vtb1
 R1
 !i10b 1
 !s100 D?8Nd9<Lc4gbQAPYJSLkM1
-IM5:[Mj3_YUNZO=`PzC_j^0
+Ik`N_7be214382DRB1d=fQ0
 R2
 R0
 w1585157931
-8C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog/tb1.v
-FC:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog/tb1.v
+8C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog/tb1.v
+FC:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog/tb1.v
 L0 8
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog/tb1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog|C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog/tb1.v|
+!s107 C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog/tb1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog|C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog/tb1.v|
 !i113 1
 R5
-!s92 -vlog01compat -work work {+incdir+C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog}
+!s92 -vlog01compat -work work {+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog}
 R6

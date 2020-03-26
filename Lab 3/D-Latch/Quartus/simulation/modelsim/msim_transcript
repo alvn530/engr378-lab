@@ -10,31 +10,31 @@
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/alvn5/ENGR378/lab3/Verilog {C:/Users/alvn5/ENGR378/lab3/Verilog/d_latch.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/alvn5/github/engr378-lab/Lab\ 3/D-Latch/Verilog {C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Verilog/d_latch.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:40:42 on Mar 25,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/alvn5/ENGR378/lab3/Verilog" C:/Users/alvn5/ENGR378/lab3/Verilog/d_latch.v 
+# Start time: 13:25:58 on Mar 25,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Verilog" C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Verilog/d_latch.v 
 # -- Compiling module d_latch
 # 
 # Top level modules:
 # 	d_latch
-# End time: 10:40:42 on Mar 25,2020, Elapsed time: 0:00:00
+# End time: 13:25:58 on Mar 25,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/alvn5/ENGR378/Lab\ 3/D_flip_flop/Quartus/../../../lab3/Verilog {C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog/tb1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/alvn5/github/engr378-lab/Lab\ 3/D-Latch/Quartus/../Verilog {C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog/tb1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:40:42 on Mar 25,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog" C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog/tb1.v 
+# Start time: 13:25:58 on Mar 25,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog" C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog/tb1.v 
 # -- Compiling module tb1
 # 
 # Top level modules:
 # 	tb1
-# End time: 10:40:42 on Mar 25,2020, Elapsed time: 0:00:00
+# End time: 13:25:58 on Mar 25,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb1
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb1 
-# Start time: 10:40:42 on Mar 25,2020
+# Start time: 13:25:58 on Mar 25,2020
 # Loading work.tb1
 # Loading work.d_latch
 # 
@@ -48,8 +48,8 @@
 # 
 # 
 # Error count: 0
-# ** Note: $stop    : C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog/tb1.v(57)
+# ** Note: $stop    : C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog/tb1.v(57)
 #    Time: 20 ns  Iteration: 0  Instance: /tb1
-# Break in Module tb1 at C:/Users/alvn5/ENGR378/Lab 3/D_flip_flop/Quartus/../../../lab3/Verilog/tb1.v line 57
-# End time: 12:13:23 on Mar 25,2020, Elapsed time: 1:32:41
+# Break in Module tb1 at C:/Users/alvn5/github/engr378-lab/Lab 3/D-Latch/Quartus/../Verilog/tb1.v line 57
+# End time: 15:09:33 on Mar 25,2020, Elapsed time: 1:43:35
 # Errors: 0, Warnings: 0

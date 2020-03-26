@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab3
-Wed Mar 25 10:30:38 2020
+Wed Mar 25 13:27:38 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Mar 25 10:30:38 2020       ;
+; Analysis & Synthesis Status        ; Successful - Wed Mar 25 13:27:38 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab3                                        ;
 ; Top-level Entity Name              ; two_bit_counter                             ;
@@ -162,13 +162,13 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                        ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                          ; Library ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------+---------+
-; Verilog/two_bit_counter.v        ; yes             ; User Verilog HDL File  ; C:/Users/alvn5/ENGR378/lab3/Verilog/two_bit_counter.v ;         ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                            ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                              ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
+; ../Verilog/two_bit_counter.v     ; yes             ; User Verilog HDL File  ; C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Verilog/two_bit_counter.v ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------+
@@ -261,14 +261,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Mar 25 10:30:08 2020
+    Info: Processing started: Wed Mar 25 13:27:09 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab3 -c lab3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file /users/alvn5/engr378/lab 3/counter/verilog/tb.v
-    Info (12023): Found entity 1: tb File: C:/Users/alvn5/ENGR378/Lab 3/counter/Verilog/tb.v Line: 7
-Info (12021): Found 1 design units, including 1 entities, in source file verilog/two_bit_counter.v
-    Info (12023): Found entity 1: two_bit_counter File: C:/Users/alvn5/ENGR378/lab3/Verilog/two_bit_counter.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/alvn5/github/engr378-lab/lab 3/counter/verilog/two_bit_counter.v
+    Info (12023): Found entity 1: two_bit_counter File: C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Verilog/two_bit_counter.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/alvn5/github/engr378-lab/lab 3/counter/verilog/tb.v
+    Info (12023): Found entity 1: tb File: C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Verilog/tb.v Line: 7
 Info (12127): Elaborating entity "two_bit_counter" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -278,9 +278,9 @@ Info (21057): Implemented 6 device resources after synthesis - the final resourc
     Info (21059): Implemented 2 output pins
     Info (21061): Implemented 2 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4756 megabytes
-    Info: Processing ended: Wed Mar 25 10:30:38 2020
-    Info: Elapsed time: 00:00:30
-    Info: Total CPU time (on all processors): 00:00:38
+    Info: Peak virtual memory: 4744 megabytes
+    Info: Processing ended: Wed Mar 25 13:27:38 2020
+    Info: Elapsed time: 00:00:29
+    Info: Total CPU time (on all processors): 00:00:51
 
 

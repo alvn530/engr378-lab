@@ -7,48 +7,48 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/alvn5/ENGR378/lab3/simulation/modelsim
+Z0 dC:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Quartus/simulation/modelsim
 vtb
-Z1 !s110 1585157497
+Z1 !s110 1585168188
 !i10b 1
 !s100 2RjTJY]6MFUJfYf:aiF=<0
-IYznn:^Rlc:Fg`z9nbFeS22
+I^klJNI[9V_LUMghAV6_Um2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1584982176
-8C:/Users/alvn5/ENGR378/lab3/../Lab 3/counter/Verilog/tb.v
-FC:/Users/alvn5/ENGR378/lab3/../Lab 3/counter/Verilog/tb.v
+8C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Quartus/../Verilog/tb.v
+FC:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Quartus/../Verilog/tb.v
 L0 7
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1585157497.000000
-!s107 C:/Users/alvn5/ENGR378/lab3/../Lab 3/counter/Verilog/tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/ENGR378/lab3/../Lab 3/counter/Verilog|C:/Users/alvn5/ENGR378/lab3/../Lab 3/counter/Verilog/tb.v|
+Z4 !s108 1585168188.000000
+!s107 C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Quartus/../Verilog/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Quartus/../Verilog|C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Quartus/../Verilog/tb.v|
 !i113 1
 Z5 o-vlog01compat -work work
-!s92 -vlog01compat -work work {+incdir+C:/Users/alvn5/ENGR378/lab3/../Lab 3/counter/Verilog}
+!s92 -vlog01compat -work work {+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Quartus/../Verilog}
 Z6 tCvgOpt 0
 vtwo_bit_counter
 R1
 !i10b 1
 !s100 Dh2mkU?<j<@iSDPAn@>dS3
-IhA=EkNe2l>]cK]zG=VQ=W2
+I4?g>14dLlP?4PCXnbKVK:0
 R2
 R0
 w1584980062
-8C:/Users/alvn5/ENGR378/lab3/Verilog/two_bit_counter.v
-FC:/Users/alvn5/ENGR378/lab3/Verilog/two_bit_counter.v
+8C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Verilog/two_bit_counter.v
+FC:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Verilog/two_bit_counter.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/alvn5/ENGR378/lab3/Verilog/two_bit_counter.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/ENGR378/lab3/Verilog|C:/Users/alvn5/ENGR378/lab3/Verilog/two_bit_counter.v|
+!s107 C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Verilog/two_bit_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Verilog|C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Verilog/two_bit_counter.v|
 !i113 1
 R5
-!s92 -vlog01compat -work work +incdir+C:/Users/alvn5/ENGR378/lab3/Verilog
+!s92 -vlog01compat -work work {+incdir+C:/Users/alvn5/github/engr378-lab/Lab 3/Counter/Verilog}
 R6
