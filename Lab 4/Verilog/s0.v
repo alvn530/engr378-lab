@@ -16,7 +16,7 @@
 `define HEXF 7'b0001110
 
 module s0(hex_in, seg_out);
-  input [4:0] hex_in;
+  input [3:0] hex_in;
   output [6:0] seg_out;
 
   always@(*) begin

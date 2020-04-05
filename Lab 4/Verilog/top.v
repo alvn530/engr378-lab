@@ -4,7 +4,7 @@ module top(buttons, switches, s7_out, s1_out, s0_out);
 
   output [6:0] s7_out, s1_out, s0_out;
 
-  wire [4:0] hex_0;
+  wire [3:0] hex_0;
   wire hex_1;
   wire [1:0] hex_7;
 

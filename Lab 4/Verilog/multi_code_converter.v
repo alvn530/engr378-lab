@@ -1,7 +1,7 @@
 module multi_code_converter(switches, buttons, hex_0, hex_1, hex_7);
   input [3:0] switches;
   input [2:0] buttons;
-  output [4:0] hex_0;
+  output [3:0] hex_0;
   output hex_1;
   output [1:0] hex_7;
 
