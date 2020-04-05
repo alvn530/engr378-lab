@@ -17,26 +17,26 @@
 
 module s0(hex_in, seg_out);
   input [3:0] hex_in;
-  output [6:0] seg_out;
+  output reg [6:0] seg_out;
 
   always@(*) begin
     case (hex_in)
-      4'h0: seg_out = `ZERO;
-      4'h1: seg_out = `ONE;
-      4'h2: seg_out = `TWO;
-      4'h3: seg_out = `THREE;
-      4'h4: seg_out = `FOUR;
-      4'h5: seg_out = `FIVE;
-      4'h6: seg_out = `SIX;
-      4'h7: seg_out = `SEVEN;
-      4'h8: seg_out = `EIGHT;
-      4'h9: seg_out = `NINE;
-      4'ha: seg_out = `HEXA;
-      4'hb: seg_out = `HEXB;
-      4'hc: seg_out = `HEXC;
-      4'hd: seg_out = `HEXD;
-      4'he: seg_out = `HEXE;
-      4'hf: seg_out = `HEXF;
+      4'h0: seg_out <= `ZERO;
+      4'h1: seg_out <= `ONE;
+      4'h2: seg_out <= `TWO;
+      4'h3: seg_out <= `THREE;
+      4'h4: seg_out <= `FOUR;
+      4'h5: seg_out <= `FIVE;
+      4'h6: seg_out <= `SIX;
+      4'h7: seg_out <= `SEVEN;
+      4'h8: seg_out <= `EIGHT;
+      4'h9: seg_out <= `NINE;
+      4'ha: seg_out <= `HEXA;
+      4'hb: seg_out <= `HEXB;
+      4'hc: seg_out <= `HEXC;
+      4'hd: seg_out <= `HEXD;
+      4'he: seg_out <= `HEXE;
+      4'hf: seg_out <= `HEXF;
     endcase
   end
 

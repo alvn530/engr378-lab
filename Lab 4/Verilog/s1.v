@@ -3,10 +3,10 @@
 
 module s1(enable, seg_out);
   input enable;
-  output [6:0] seg_out;
+  output reg [6:0] seg_out;
 
   always@(*) begin
-    seg_out = (enable) ? (`ON) : (`OFF);
+    seg_out <= (enable) ? (`ON) : (`OFF);
   end
 
 endmodule
