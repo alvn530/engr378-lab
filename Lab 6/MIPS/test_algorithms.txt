@@ -1,0 +1,38 @@
+#
+# Algorithm 1
+#
+#
+0x00 addi $t0, $0, 0x10     # load $t0 with non-zero using addi
+0x04 addi $t1, $0, 0x0      # load $t1 with zero using addi
+0x08 addi $t2, $0, 0x0      # load $t2 with zero using addi
+0x0c beq $t1, $t2, 0x4      # if $t1 == $t2, branch to 0x04
+0x10 j 0x4                  # else jump to 0x04
+
+
+#
+# Algorithm 2
+#
+#
+0x00 addi $t3, $0, 0x20     # load $t3 with non-zero using addi
+0x04 addi $t0, $0, 0x30     # load $t0 with non-zero value using addi
+0x08 and $t4, $t3, $t0      # load $t4 with result of $t3 && $t0 using and
+0x0c or $t5, $t3, $t0       # load $t5 with result of $t3 || $t0 using or
+0x10 add $t6, $t3, $t0      # load $t6 with result of $t3 + $t0 using add
+0x14 sub $t7, $t3, $t0      # load $t7 with result of $t3 - $t0 using sub
+0x18 addi $t1, $0, 0x0      # load $t1 with zero using addi
+0x1c addi $t2, $0, 0x0      # load $t2 with zero using addi
+0x20 beq $t1, $t2, 0x18     # if $t1 == $t2, branch to 0x18
+0x24 j 0x18                 # else jump to 0x18
+
+
+#
+# Algorithm 3
+#
+#
+0x00 addi $t3, $0, 0x40     # load $t3 with non-zero using addi
+0x04 sw $t3, $s0            # store data in $s0 using sw
+0x08 lw $t0, $s0            # load $t0 with contents of memory location $s0 using lw
+0x0c addi $t1, $0, 0x0      # load $t1 with zero using addi
+0x10 addi $t2, $0, 0x0      # load $t2 with zero using addi
+0x14 beq $t1, $t2, 0x0c     # if $t1 == $t2, branch to 0x18
+0x18 j 0x0c                 # else jump to 0x18
